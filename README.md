@@ -1,6 +1,6 @@
 # Wedding Website
 ## This was a project for a couple who wanted a wedding invitation website
-Consists of: 
+Technologies used: 
 * HTML
 * CSS / SCSS
 * JavaScript
