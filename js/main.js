@@ -3,7 +3,7 @@
 
   // JS Data AOS Page Animation
   AOS.init({
-    duration: 1100,
+    duration: 1000,
   });
 
   // Navbar on scrolling
@@ -36,24 +36,24 @@
   });
 
   // Modal Video
-  $(document).ready(function () {
-    var $videoSrc;
-    $(".btn-play").click(function () {
-      $videoSrc = $(this).data("src");
-    });
-    console.log($videoSrc);
+  // $(document).ready(function () {
+  //   var $videoSrc;
+  //   $(".btn-play").click(function () {
+  //     $videoSrc = $(this).data("src");
+  //   });
+  //   console.log($videoSrc);
 
-    $("#videoModal").on("shown.bs.modal", function (e) {
-      $("#video").attr(
-        "src",
-        $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0"
-      );
-    });
+  //   $("#videoModal").on("shown.bs.modal", function (e) {
+  //     $("#video").attr(
+  //       "src",
+  //       $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0"
+  //     );
+  //   });
 
-    $("#videoModal").on("hide.bs.modal", function (e) {
-      $("#video").attr("src", $videoSrc);
-    });
-  });
+  //   $("#videoModal").on("hide.bs.modal", function (e) {
+  //     $("#video").attr("src", $videoSrc);
+  //   });
+  // });
 
   // Scroll to Bottom
   $(window).scroll(function () {
@@ -85,14 +85,16 @@
     }
   });
   $(".back-to-top").click(function () {
-    $("html, body").animate({ scrollTop: 0 }, 1500, "easeInOutExpo");
+    $("html, body").animate({ scrollTop: 0 }, 1000, "easeInOutExpo");
+    // 'duration' value has been changed; 1500 => 1000
     return false;
   });
 
   // Gallery carousel
   $(".gallery-carousel").owlCarousel({
     autoplay: false,
-    smartSpeed: 1500,
+    smartSpeed: 1000,
+    // smartSpeed (above) duration has been changed; 1500 => 1000
     dots: false,
     loop: true,
     nav: true,
