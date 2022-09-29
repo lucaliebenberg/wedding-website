@@ -3,7 +3,8 @@
 $primary: #36424D; 
 $secondary: #EDF5F7; 
 $light: #FFFFFF;
-$dark: #121F38;
+$dark: #6495ED;
+// #121F38
 
 $font-family-sans-serif: 'Montserrat', sans-serif;
 
@@ -139,7 +140,7 @@ $border-width: 2px;
     height: 2px;
     bottom: 11px;
     left: calc(50% - 80px);
-    background: $primary;
+    background: #C3C1AB;
 }
 
 .section-title::after {
@@ -149,7 +150,7 @@ $border-width: 2px;
     height: 2px;
     bottom: 11px;
     right: calc(50% - 80px);
-    background: $primary;
+    background: #C3C1AB;
 }
 
 .btn-play {
@@ -259,7 +260,7 @@ $border-width: 2px;
         bottom: 0;
         left: 50%;
         margin-left: -1px;
-        background: $primary;
+        background:#C3C1AB;
     }
     
     .timeline .row::before {
@@ -270,7 +271,8 @@ $border-width: 2px;
         top: calc(50% - 15px);
         left: calc(50% - 15px);
         background: $light;
-        border: 2px solid $primary;
+        border: 2px solid #C3C1AB;
+        // color changed from $primary
         transform: rotate(45deg);
         z-index: 1;
     }
@@ -282,7 +284,8 @@ $border-width: 2px;
         position: absolute;
         top: calc(50% - 10px);
         left: calc(50% - 8px);
-        color: $primary;
+        color: #C3C1AB;
+        // color changed from $primary
         z-index: 2;
     }
 }

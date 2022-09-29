@@ -9937,7 +9937,7 @@ a.text-dark:focus {
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #e47a2e;
+  color: #5e5945;
 }
 
 @media (max-width: 991.98px) {
@@ -9966,7 +9966,7 @@ a.text-dark:focus {
   height: 2px;
   bottom: 11px;
   left: calc(50% - 80px);
-  background: #e47a2e;
+  background: #c3c1ab;
 }
 
 .section-title::after {
@@ -9976,7 +9976,7 @@ a.text-dark:focus {
   height: 2px;
   bottom: 11px;
   right: calc(50% - 80px);
-  background: #e47a2e;
+  background: #c3c1ab;
 }
 
 .btn-play {
